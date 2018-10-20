@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title> RandomSite</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">RandomSite</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link active">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- page header -->
+
+  <section id="page-header" class="p-5 mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card p-4">
+            <div class="card-body">
+              <h1 class="text-center">Get in touch</h1>
+              <hr>
+              <h3>Address</h3>
+              <address>7th street 1st cross
+                Boston, PA
+                Pennysylvenia
+              </address>
+              <h3>Email</h3>
+              <p>subinsubin@gmail.com</p>
+              <h3>PhoneNo.</h3>
+              <p>1234234234</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card p-4">
+            <div class="card-body">
+              <h2 class="text-center">Fill this to get Amazing Prizes!!!</h2>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Phone no.">
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <section id="staff" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h1 class="display-4">Our Staff</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/person1.jpg" class="img-fluid rounded-circle mb-2">
+          <h3>Gina Carano</h3>
+          <small>Web Designer</small>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/person2.jpg" class="img-fluid rounded-circle mb-2">
+          <h3>Melissa Benoist</h3>
+          <small>Web Developer</small>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/person3.jpg" class="img-fluid rounded-circle mb-2">
+          <h3>Chris Pratt</h3>
+          <small>IOS App Developer</small>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/person4.jpg" class="img-fluid rounded-circle mb-2">
+          <h3>Bradley</h3>
+          <small>Android App Developer</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer id="main-footer" class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col ml-auto">
+          <p class="lead">Copyright &copy; <span id="year"></span> RandomSite</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <script>
+
+    // get current year for the copyright
+    $('#year').text(new Date().getFullYear());  //wherever you want the year, just use the YEAR id in the any element
+
+  </script>
+</body>
+
+</html>
